@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+  
+    font-family: 'Playfair Display';
+}
+ul{
+    list-style-type: none;
+    gap:52px;
+}
+.flex{
+    display:flex;
+}
+.margin-right{
+    margin-right: 30px;
+}
+li{
+    margin:32px 52px;
+}

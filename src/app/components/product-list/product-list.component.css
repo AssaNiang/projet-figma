@@ -1,0 +1,14 @@
+
+h2{
+    text-align: center;
+    margin:127px 0;
+}
+.flex{
+    width:min(1200px,100%);
+    margin:123px auto;
+    display:flex;
+    gap:83px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}

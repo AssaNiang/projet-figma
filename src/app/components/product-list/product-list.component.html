@@ -1,0 +1,11 @@
+<section>
+    <h2>Plantes d'intérieur</h2>
+    <div class="flex">
+    <ng-container *ngFor="let product of products">
+       <app-product-card *ngIf="product.isAvailable"[product]="product">
+       
+       </app-product-card>
+       
+    </ng-container>
+    </div>
+</section>

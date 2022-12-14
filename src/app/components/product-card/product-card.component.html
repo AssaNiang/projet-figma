@@ -1,0 +1,9 @@
+
+<article >
+    <img src="{{product.img}}" alt="une plante">
+    <div class="description flex">
+        <h3>{{product.name}}</h3>
+        <p [class.color-green]="product.price<20">{{product.price}} €</p>
+        <button>Ajouter au panier</button>
+    </div>
+</article>

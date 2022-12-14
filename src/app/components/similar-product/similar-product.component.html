@@ -1,0 +1,7 @@
+
+<section>
+    <h2>Consulté récemment</h2>
+    <div class="product">
+        <app-product-card *ngFor="let productElement of products.slice(4,5)" [product]="productElement"></app-product-card>
+    </div>
+</section>

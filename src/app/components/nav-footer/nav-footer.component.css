@@ -1,0 +1,16 @@
+.flex{
+    display:flex;
+    gap:50px;
+    margin-top:37px
+}
+.contact:after{
+    content:"|";
+    padding:55px;
+}
+ul{
+    list-style: none;  
+}
+a{
+    color:white;
+    text-decoration: none;
+}
